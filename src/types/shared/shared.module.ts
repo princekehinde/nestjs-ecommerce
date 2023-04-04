@@ -3,5 +3,6 @@ import { UserService } from './user/user.service';
 
 @Module({
   providers: [UserService],
+  exports: [UserService],
 })
 export class SharedModule {}
